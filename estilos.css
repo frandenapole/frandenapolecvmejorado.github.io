@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(231, 238, 255);
+}
+
+
+.color-curriculum{
+    color: #ffff;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#centrado{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.redondo{
+    border-radius: 75px;
+}
+
+#name{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+.datos{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(30, 98, 255);
+}
+
+.informacion{
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+
+.yo{
+    font-weight: bold;
+    width: auto
+}
+
+#conocimientos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.idioma{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contacto{
+    font-weight: bold;
+    color: blue;
+}
+
+footer{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    margin: 0%;
+    padding: 60px;
+}
+
+#redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tamano-letra{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 576px) {
+    nav{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+}
